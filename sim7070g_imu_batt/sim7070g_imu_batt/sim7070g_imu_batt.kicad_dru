@@ -1,0 +1,7 @@
+(version 1)
+
+# LSM6DSV16X LGA14: pad gap interno 0.05mm (geometria SnapEDA 0.5mm pitch).
+# Aplica somente entre pads do proprio footprint U3.
+(rule "U3_LGA14_intra_footprint_pad_gap"
+    (condition "A.memberOfFootprint('U3') && B.memberOfFootprint('U3')")
+    (constraint clearance (min 0.05mm)))
