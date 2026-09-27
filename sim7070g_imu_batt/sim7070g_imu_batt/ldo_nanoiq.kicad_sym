@@ -1,0 +1,26 @@
+(kicad_symbol_lib
+  (version 20220914)
+  (generator "sim7070g_imu_batt")
+  (symbol "NanoIq_LDO_2V5"
+    (pin_names (offset 1.016))
+    (exclude_from_sim no) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (at 0 6.35 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Value" "NanoIq_LDO_2V5" (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+      (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Description" "Dedicated nano-Iq 2.5V LDO for the LSM6DSV16X analog rail (TPS7A0525 / LP5907-2.5 class, ~1uA Iq). Keeps charger switching noise and SIM7070G RF burst transients off the accelerometer supply. VDDIO of the IMU is NOT fed from here - it is tied to the module VDD_EXT 1.8V reference so the I/O levels match."
+      (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (symbol "NanoIq_LDO_2V5_0_1"
+      (rectangle (start -7.62 -5.08) (end 7.62 5.08)
+        (stroke (width 0.254) (type default)) (fill (type background))))
+    (symbol "NanoIq_LDO_2V5_1_1"
+      (pin power_in line (at -10.16 2.54 0) (length 2.54) (name "IN" (effects (font (size 1.016 1.016))) ) (number "1" (effects (font (size 1.016 1.016))) ))
+      (pin power_in line (at 0 -7.62 90) (length 2.54) (name "GND" (effects (font (size 1.016 1.016))) ) (number "2" (effects (font (size 1.016 1.016))) ))
+      (pin input line (at -10.16 -2.54 0) (length 2.54) (name "EN" (effects (font (size 1.016 1.016))) ) (number "3" (effects (font (size 1.016 1.016))) ))
+      (pin passive line (at 0 7.62 270) (length 2.54) (name "BP" (effects (font (size 1.016 1.016))) ) (number "4" (effects (font (size 1.016 1.016))) ))
+      (pin power_out line (at 10.16 0 180) (length 2.54) (name "OUT" (effects (font (size 1.016 1.016))) ) (number "5" (effects (font (size 1.016 1.016))) ))
+    )
+  )
+)

@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "sim7070g")(type "KiCad")(uri "${KIPRJMOD}/sim7070g.kicad_sym")(options "")(descr "SIM7070G 24x24mm 68-pad LCC+LGA OpenCPU"))
+  (lib (name "eta6095")(type "KiCad")(uri "${KIPRJMOD}/eta6095.kicad_sym")(options "")(descr "ETA6095 switch charger, no TS/NTC, no SYS"))
+  (lib (name "lsm6dsv16x")(type "KiCad")(uri "${KIPRJMOD}/lsm6dsv16x.kicad_sym")(options "")(descr "ST LSM6DSV16X LGA14 pinout from SnapEDA XDCR_LSM6DSV16XTR"))
+  (lib (name "nanosim")(type "KiCad")(uri "${KIPRJMOD}/nanosim.kicad_sym")(options "")(descr "4FF nano-SIM push-push holder with normally-open card-detect switch"))
+  (lib (name "ldo_nanoiq")(type "KiCad")(uri "${KIPRJMOD}/ldo_nanoiq.kicad_sym")(options "")(descr "Nano-Iq 2.5V LDO dedicated to the LSM6DSV16X analog rail"))
+)

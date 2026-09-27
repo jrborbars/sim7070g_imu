@@ -1,0 +1,5814 @@
+{
+  "name": "sim7070g_imu_batt",
+  "description": "",
+  "tstamps": "/sim7070g_imu_batt-4448842288/",
+  "source_file": "sim7070g_imu_batt.kicad_sch",
+  "components": {
+    "U1": {
+      "symbol": "sim7070g:SIM7070G",
+      "ref": "U1",
+      "value": "SIM7070G",
+      "footprint": "sim7070g_imu_batt:SIM7070G_LCC_LGA68",
+      "datasheet": "https://www.simcom.com/product/SIM7070G-1.html",
+      "description": "",
+      "properties": {},
+      "_extra_fields": {},
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "PWRKEY",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "GND",
+          "func": "power_in",
+          "unit": 1,
+          "x": -25.4,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "3",
+          "name": "UART1_DTR",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "4",
+          "name": "UART1_RI",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 7.62,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "5",
+          "name": "UART1_DCD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 10.16,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "6",
+          "name": "BOOT_CFG",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 12.7,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "7",
+          "name": "UART1_CTS",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 15.24,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "8",
+          "name": "UART1_RTS",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 17.78,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "9",
+          "name": "UART1_TXD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 20.32,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "10",
+          "name": "UART1_RXD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 22.86,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "11",
+          "name": "PCM_CLK",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "12",
+          "name": "PCM_SYNC",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 27.94,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "13",
+          "name": "PCM_DIN",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 30.48,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "14",
+          "name": "PCM_DOUT",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 33.02,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "15",
+          "name": "VDD_EXT",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 35.56,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "16",
+          "name": "NC_16",
+          "func": "no_connect",
+          "unit": 1,
+          "x": -25.4,
+          "y": 38.1,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "19",
+          "name": "GPIO1",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -17.78,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "20",
+          "name": "GPIO2",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -15.24,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "21",
+          "name": "GPIO3",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -12.7,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "22",
+          "name": "DEBUG_RXD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -10.16,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "23",
+          "name": "DEBUG_TXD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -7.62,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "24",
+          "name": "USB_VBUS",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -5.08,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "25",
+          "name": "ADC",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -2.54,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "26",
+          "name": "NC_26",
+          "func": "no_connect",
+          "unit": 1,
+          "x": 0.0,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "27",
+          "name": "USB_DP",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 2.54,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "28",
+          "name": "USB_DM",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 5.08,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "30",
+          "name": "SIM_VDD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 10.16,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "31",
+          "name": "SIM_DATA",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 12.7,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "32",
+          "name": "SIM_CLK",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "33",
+          "name": "SIM_RST",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 17.78,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "34",
+          "name": "GPIO4",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 20.32,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "35",
+          "name": "NC_35",
+          "func": "no_connect",
+          "unit": 1,
+          "x": 25.4,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "36",
+          "name": "NC_36",
+          "func": "no_connect",
+          "unit": 1,
+          "x": 25.4,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "37",
+          "name": "I2C_SDA",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 25.4,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "38",
+          "name": "I2C_SCL",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 25.4,
+          "y": -7.62,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "40",
+          "name": "NC_40",
+          "func": "no_connect",
+          "unit": 1,
+          "x": 25.4,
+          "y": -12.7,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "41",
+          "name": "NC_41",
+          "func": "no_connect",
+          "unit": 1,
+          "x": 25.4,
+          "y": -15.24,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "42",
+          "name": "NC_42",
+          "func": "no_connect",
+          "unit": 1,
+          "x": 25.4,
+          "y": -17.78,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "43",
+          "name": "NC_43",
+          "func": "no_connect",
+          "unit": 1,
+          "x": 25.4,
+          "y": -20.32,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "44",
+          "name": "NC_44",
+          "func": "no_connect",
+          "unit": 1,
+          "x": 25.4,
+          "y": -22.86,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "47",
+          "name": "NC_47",
+          "func": "no_connect",
+          "unit": 1,
+          "x": 25.4,
+          "y": -30.48,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "48",
+          "name": "GPIO5",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 25.4,
+          "y": -33.02,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "49",
+          "name": "UART3_RXD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 25.4,
+          "y": -35.56,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "50",
+          "name": "UART3_TXD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 25.4,
+          "y": -38.1,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "51",
+          "name": "NC_51",
+          "func": "no_connect",
+          "unit": 1,
+          "x": 25.4,
+          "y": -40.64,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "52",
+          "name": "NETLIGHT",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 20.32,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "53",
+          "name": "GNSS_ANT",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 17.78,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "55",
+          "name": "VBAT",
+          "func": "power_in",
+          "unit": 1,
+          "x": 12.7,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "60",
+          "name": "RF_ANT",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -0.0,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "66",
+          "name": "STATUS",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -15.24,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "67",
+          "name": "GPIO6",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -17.78,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "68",
+          "name": "GPIO7",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -20.32,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "VBAT",
+          "name": "VBAT",
+          "func": "power_in",
+          "unit": 1,
+          "x": 12.7,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "GND",
+          "name": "GND",
+          "func": "power_in",
+          "unit": 1,
+          "x": -25.4,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "USB_VBUS",
+          "name": "USB_VBUS",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -5.08,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "VDD_EXT",
+          "name": "VDD_EXT",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 35.56,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "I2C_SDA",
+          "name": "I2C_SDA",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 25.4,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "I2C_SCL",
+          "name": "I2C_SCL",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 25.4,
+          "y": -7.62,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "GPIO2",
+          "name": "GPIO2",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -15.24,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "GPIO3",
+          "name": "GPIO3",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -12.7,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "SIM_CLK",
+          "name": "SIM_CLK",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "SIM_DATA",
+          "name": "SIM_DATA",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 12.7,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "SIM_RST",
+          "name": "SIM_RST",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 17.78,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "SIM_VDD",
+          "name": "SIM_VDD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 10.16,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "GPIO6",
+          "name": "GPIO6",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -17.78,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "UART1_TXD",
+          "name": "UART1_TXD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 20.32,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "UART1_RXD",
+          "name": "UART1_RXD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 22.86,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "DEBUG_RXD",
+          "name": "DEBUG_RXD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -10.16,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "DEBUG_TXD",
+          "name": "DEBUG_TXD",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -7.62,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "UART1_DTR",
+          "name": "UART1_DTR",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "USB_DP",
+          "name": "USB_DP",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 2.54,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "USB_DM",
+          "name": "USB_DM",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 5.08,
+          "y": -25.4,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "PWRKEY",
+          "name": "PWRKEY",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "BOOT_CFG",
+          "name": "BOOT_CFG",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -25.4,
+          "y": 12.7,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "STATUS",
+          "name": "STATUS",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -15.24,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "RF_ANT",
+          "name": "RF_ANT",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -0.0,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "GNSS_ANT",
+          "name": "GNSS_ANT",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 17.78,
+          "y": 25.4,
+          "length": 2.54,
+          "orientation": 270.0
+        }
+      ]
+    },
+    "U2": {
+      "symbol": "eta6095:ETA6095",
+      "ref": "U2",
+      "value": "ETA6095",
+      "footprint": "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm",
+      "datasheet": "",
+      "description": "ETA 2.5A switch charger, no TS/NTC, no SYS",
+      "properties": {},
+      "_extra_fields": {},
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "BATS",
+          "func": "passive",
+          "unit": 1,
+          "x": -12.7,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "AGND",
+          "func": "power_in",
+          "unit": 1,
+          "x": -12.7,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "3",
+          "name": "ISET",
+          "func": "passive",
+          "unit": 1,
+          "x": -12.7,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "4",
+          "name": "STAT",
+          "func": "output",
+          "unit": 1,
+          "x": -12.7,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "5",
+          "name": "USB",
+          "func": "power_in",
+          "unit": 1,
+          "x": 12.7,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "6",
+          "name": "PGND",
+          "func": "power_in",
+          "unit": 1,
+          "x": 12.7,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "7",
+          "name": "SW",
+          "func": "passive",
+          "unit": 1,
+          "x": 12.7,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "8",
+          "name": "OTG",
+          "func": "input",
+          "unit": 1,
+          "x": 12.7,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "BATS",
+          "name": "BATS",
+          "func": "passive",
+          "unit": 1,
+          "x": -12.7,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "AGND",
+          "name": "AGND",
+          "func": "power_in",
+          "unit": 1,
+          "x": -12.7,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "PGND",
+          "name": "PGND",
+          "func": "power_in",
+          "unit": 1,
+          "x": 12.7,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "OTG",
+          "name": "OTG",
+          "func": "input",
+          "unit": 1,
+          "x": 12.7,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "USB",
+          "name": "USB",
+          "func": "power_in",
+          "unit": 1,
+          "x": 12.7,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "ISET",
+          "name": "ISET",
+          "func": "passive",
+          "unit": 1,
+          "x": -12.7,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "STAT",
+          "name": "STAT",
+          "func": "output",
+          "unit": 1,
+          "x": -12.7,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "SW",
+          "name": "SW",
+          "func": "passive",
+          "unit": 1,
+          "x": 12.7,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        }
+      ]
+    },
+    "U3": {
+      "symbol": "lsm6dsv16x:LSM6DSV16X",
+      "ref": "U3",
+      "value": "LSM6DSV16X",
+      "footprint": "sim7070g_imu_batt:LSM6DSV16X_LGA14",
+      "datasheet": "",
+      "description": "ST IMU LGA14 pinout from SnapEDA XDCR_LSM6DSV16XTR",
+      "properties": {},
+      "_extra_fields": {},
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "SDO_SA0",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -15.24,
+          "y": 7.62,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "SDX",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -15.24,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "3",
+          "name": "SCX",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -15.24,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "4",
+          "name": "INT1",
+          "func": "output",
+          "unit": 1,
+          "x": 15.24,
+          "y": 7.62,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "5",
+          "name": "VDDIO",
+          "func": "power_in",
+          "unit": 1,
+          "x": 15.24,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "6",
+          "name": "GND",
+          "func": "power_in",
+          "unit": 1,
+          "x": 15.24,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "7",
+          "name": "GND",
+          "func": "power_in",
+          "unit": 1,
+          "x": 15.24,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "8",
+          "name": "VDD",
+          "func": "power_in",
+          "unit": 1,
+          "x": 15.24,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "9",
+          "name": "INT2",
+          "func": "output",
+          "unit": 1,
+          "x": -15.24,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "10",
+          "name": "OCS_AUX",
+          "func": "passive",
+          "unit": 1,
+          "x": -15.24,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "11",
+          "name": "SDO_AUX",
+          "func": "passive",
+          "unit": 1,
+          "x": -15.24,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "12",
+          "name": "CS",
+          "func": "input",
+          "unit": 1,
+          "x": -15.24,
+          "y": -7.62,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "13",
+          "name": "SCL",
+          "func": "input",
+          "unit": 1,
+          "x": 15.24,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "14",
+          "name": "SDA",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": -7.62,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "VDDIO",
+          "name": "VDDIO",
+          "func": "power_in",
+          "unit": 1,
+          "x": 15.24,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "VDD",
+          "name": "VDD",
+          "func": "power_in",
+          "unit": 1,
+          "x": 15.24,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "SDA",
+          "name": "SDA",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": -7.62,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "SCL",
+          "name": "SCL",
+          "func": "input",
+          "unit": 1,
+          "x": 15.24,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "INT1",
+          "name": "INT1",
+          "func": "output",
+          "unit": 1,
+          "x": 15.24,
+          "y": 7.62,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "INT2",
+          "name": "INT2",
+          "func": "output",
+          "unit": 1,
+          "x": -15.24,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        }
+      ]
+    },
+    "U4": {
+      "symbol": "ldo_nanoiq:NanoIq_LDO_2V5",
+      "ref": "U4",
+      "value": "NanoIq_LDO_2V5",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "datasheet": "",
+      "description": "Dedicated nano-Iq 2.5V LDO for the LSM6DSV16X analog rail (TPS7A0525 / LP5907-2.5 class, ~1uA Iq). Keeps charger switching noise and SIM7070G RF burst transients off the accelerometer supply. VDDIO of the IMU is NOT fed from here - it is tied to the module VDD_EXT 1.8V reference so the I/O levels match.",
+      "properties": {},
+      "_extra_fields": {},
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "IN",
+          "func": "power_in",
+          "unit": 1,
+          "x": -10.16,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "GND",
+          "func": "power_in",
+          "unit": 1,
+          "x": 0.0,
+          "y": -7.62,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "3",
+          "name": "EN",
+          "func": "input",
+          "unit": 1,
+          "x": -10.16,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "4",
+          "name": "BP",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 7.62,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "5",
+          "name": "OUT",
+          "func": "power_out",
+          "unit": 1,
+          "x": 10.16,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "IN",
+          "name": "IN",
+          "func": "power_in",
+          "unit": 1,
+          "x": -10.16,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "GND",
+          "name": "GND",
+          "func": "power_in",
+          "unit": 1,
+          "x": 0.0,
+          "y": -7.62,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "OUT",
+          "name": "OUT",
+          "func": "power_out",
+          "unit": 1,
+          "x": 10.16,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "EN",
+          "name": "EN",
+          "func": "input",
+          "unit": 1,
+          "x": -10.16,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        }
+      ]
+    },
+    "U6": {
+      "symbol": "Timer_RTC:PCF8523T",
+      "ref": "U6",
+      "value": "MAX17048_DNP",
+      "footprint": "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm",
+      "datasheet": "https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf",
+      "description": "Realtime Clock/Calendar I2C Interface, SOIC-8",
+      "properties": {
+        "ki_fp_filters": "SOIC*3.9x4.9mm*P1.27mm*"
+      },
+      "_extra_fields": {
+        "dnp": true,
+        "ki_fp_filters": "SOIC*3.9x4.9mm*P1.27mm*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "OSCI",
+          "func": "input",
+          "unit": 1,
+          "x": -12.7,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "OSCO",
+          "func": "output",
+          "unit": 1,
+          "x": -12.7,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "3",
+          "name": "VBAT",
+          "func": "power_in",
+          "unit": 1,
+          "x": 2.54,
+          "y": 10.16,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "4",
+          "name": "VSS",
+          "func": "power_in",
+          "unit": 1,
+          "x": 0.0,
+          "y": -10.16,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "5",
+          "name": "SDA",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -12.7,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "6",
+          "name": "SCL",
+          "func": "input",
+          "unit": 1,
+          "x": -12.7,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "7",
+          "name": "~{INT1}/CLKOUT",
+          "func": "open_collector",
+          "unit": 1,
+          "x": 12.7,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "8",
+          "name": "VDD",
+          "func": "power_in",
+          "unit": 1,
+          "x": -2.54,
+          "y": 10.16,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "VBAT",
+          "name": "VBAT",
+          "func": "power_in",
+          "unit": 1,
+          "x": 2.54,
+          "y": 10.16,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "VDD",
+          "name": "VDD",
+          "func": "power_in",
+          "unit": 1,
+          "x": -2.54,
+          "y": 10.16,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "VSS",
+          "name": "VSS",
+          "func": "power_in",
+          "unit": 1,
+          "x": 0.0,
+          "y": -10.16,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "SDA",
+          "name": "SDA",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": -12.7,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "SCL",
+          "name": "SCL",
+          "func": "input",
+          "unit": 1,
+          "x": -12.7,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        }
+      ],
+      "dnp": true
+    },
+    "J1": {
+      "symbol": "Connector:USB_C_Receptacle_USB2.0_16P",
+      "ref": "J1",
+      "value": "USB-C-16P",
+      "footprint": "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A",
+      "datasheet": "https://www.usb.org/sites/default/files/documents/usb_type-c.zip",
+      "description": "USB 2.0-only 16P Type-C Receptacle connector",
+      "properties": {
+        "ki_fp_filters": "USB*C*Receptacle*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "USB*C*Receptacle*"
+      },
+      "pins": [
+        {
+          "pin_id": "A1",
+          "name": "GND",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -22.86,
+          "length": 5.08,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "A4",
+          "name": "VBUS",
+          "func": "passive",
+          "unit": 1,
+          "x": 15.24,
+          "y": 15.24,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "A5",
+          "name": "CC1",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": 10.16,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "A6",
+          "name": "D+",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": -2.54,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "A7",
+          "name": "D-",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": 2.54,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "A8",
+          "name": "SBU1",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": -12.7,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "A9",
+          "name": "VBUS",
+          "func": "passive",
+          "unit": 1,
+          "x": 15.24,
+          "y": 15.24,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "A12",
+          "name": "GND",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -22.86,
+          "length": 5.08,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "B1",
+          "name": "GND",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -22.86,
+          "length": 5.08,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "B4",
+          "name": "VBUS",
+          "func": "passive",
+          "unit": 1,
+          "x": 15.24,
+          "y": 15.24,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "B5",
+          "name": "CC2",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": 7.62,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "B6",
+          "name": "D+",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": -5.08,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "B7",
+          "name": "D-",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": 0.0,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "B8",
+          "name": "SBU2",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": -15.24,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "B9",
+          "name": "VBUS",
+          "func": "passive",
+          "unit": 1,
+          "x": 15.24,
+          "y": 15.24,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "B12",
+          "name": "GND",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -22.86,
+          "length": 5.08,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "SH",
+          "name": "SHIELD",
+          "func": "passive",
+          "unit": 1,
+          "x": -7.62,
+          "y": -22.86,
+          "length": 5.08,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "SHIELD",
+          "name": "SHIELD",
+          "func": "passive",
+          "unit": 1,
+          "x": -7.62,
+          "y": -22.86,
+          "length": 5.08,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "CC1",
+          "name": "CC1",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": 10.16,
+          "length": 5.08,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "CC2",
+          "name": "CC2",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 15.24,
+          "y": 7.62,
+          "length": 5.08,
+          "orientation": 180.0
+        }
+      ]
+    },
+    "J2": {
+      "symbol": "nanosim:NanoSIM_PushPush_GCT_SIM8060",
+      "ref": "J2",
+      "value": "NanoSIM",
+      "footprint": "sim7070g_imu_batt:NanoSIM_GCT_SIM8060-6-1",
+      "datasheet": "",
+      "description": "4FF nano-SIM push-push holder (GCT SIM8060-6-1-14-00 class), normally-open card-detect switch SW to GND on insert, requires external pull-up",
+      "properties": {},
+      "_extra_fields": {},
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "VCC",
+          "func": "power_in",
+          "unit": 1,
+          "x": -12.7,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "RST",
+          "func": "output",
+          "unit": 1,
+          "x": -12.7,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "3",
+          "name": "CLK",
+          "func": "output",
+          "unit": 1,
+          "x": -12.7,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "5",
+          "name": "GND",
+          "func": "power_in",
+          "unit": 1,
+          "x": -12.7,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "6",
+          "name": "VPP",
+          "func": "passive",
+          "unit": 1,
+          "x": -12.7,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "7",
+          "name": "I/O",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 12.7,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "SH",
+          "name": "SHIELD",
+          "func": "passive",
+          "unit": 1,
+          "x": 12.7,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "SW",
+          "name": "DET",
+          "func": "passive",
+          "unit": 1,
+          "x": 12.7,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "GND",
+          "name": "GND",
+          "func": "power_in",
+          "unit": 1,
+          "x": -12.7,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "SHIELD",
+          "name": "SHIELD",
+          "func": "passive",
+          "unit": 1,
+          "x": 12.7,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "VPP",
+          "name": "VPP",
+          "func": "passive",
+          "unit": 1,
+          "x": -12.7,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "CLK",
+          "name": "CLK",
+          "func": "output",
+          "unit": 1,
+          "x": -12.7,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "I/O",
+          "name": "I/O",
+          "func": "bidirectional",
+          "unit": 1,
+          "x": 12.7,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "RST",
+          "name": "RST",
+          "func": "output",
+          "unit": 1,
+          "x": -12.7,
+          "y": 2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "VCC",
+          "name": "VCC",
+          "func": "power_in",
+          "unit": 1,
+          "x": -12.7,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "DET",
+          "name": "DET",
+          "func": "passive",
+          "unit": 1,
+          "x": 12.7,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        }
+      ]
+    },
+    "J3": {
+      "symbol": "Connector:Conn_Coaxial",
+      "ref": "J3",
+      "value": "U.FL_LTE",
+      "footprint": "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical",
+      "datasheet": "",
+      "description": "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",
+      "properties": {
+        "ki_fp_filters": "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "In",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "Ext",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "Ext",
+          "name": "Ext",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "In",
+          "name": "In",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        }
+      ]
+    },
+    "J4": {
+      "symbol": "Connector:Conn_Coaxial",
+      "ref": "J4",
+      "value": "U.FL_GNSS",
+      "footprint": "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical",
+      "datasheet": "",
+      "description": "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",
+      "properties": {
+        "ki_fp_filters": "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "In",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "Ext",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "Ext",
+          "name": "Ext",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "In",
+          "name": "In",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        }
+      ]
+    },
+    "J5": {
+      "symbol": "Connector_Generic:Conn_01x02",
+      "ref": "J5",
+      "value": "BAT_SOLDER_PADS",
+      "footprint": "sim7070g_imu_batt:BAT_SolderPads",
+      "datasheet": "",
+      "description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "properties": {
+        "ki_fp_filters": "Connector*:*_1x??_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Connector*:*_1x??_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "Pin_1",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 3.81,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "Pin_2",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": -2.54,
+          "length": 3.81,
+          "orientation": 0.0
+        }
+      ]
+    },
+    "D1": {
+      "symbol": "Power_Protection:ESDA6V1-5SC6",
+      "ref": "D1",
+      "value": "ESDA6V1",
+      "footprint": "Package_TO_SOT_SMD:SOT-666",
+      "datasheet": "www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf",
+      "description": "Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6",
+      "properties": {
+        "ki_fp_filters": "SOT?23*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "SOT?23*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "IO1",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "GND",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "3",
+          "name": "IO2",
+          "func": "passive",
+          "unit": 1,
+          "x": -2.54,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "4",
+          "name": "IO3",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "5",
+          "name": "IO4",
+          "func": "passive",
+          "unit": 1,
+          "x": 2.54,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "6",
+          "name": "IO5",
+          "func": "passive",
+          "unit": 1,
+          "x": 5.08,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "GND",
+          "name": "GND",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -5.08,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "IO1",
+          "name": "IO1",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "IO2",
+          "name": "IO2",
+          "func": "passive",
+          "unit": 1,
+          "x": -2.54,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "IO3",
+          "name": "IO3",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "IO4",
+          "name": "IO4",
+          "func": "passive",
+          "unit": 1,
+          "x": 2.54,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "IO5",
+          "name": "IO5",
+          "func": "passive",
+          "unit": 1,
+          "x": 5.08,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        }
+      ]
+    },
+    "D2": {
+      "symbol": "Device:D",
+      "ref": "D2",
+      "value": "TVS_PESDHC2FD4V5B",
+      "footprint": "Diode_SMD:D_SOD-882",
+      "datasheet": "",
+      "description": "Diode",
+      "properties": {
+        "ki_fp_filters": "TO-???* *_Diode_* *SingleDiode* D_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "TO-???* *_Diode_* *SingleDiode* D_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "K",
+          "func": "passive",
+          "unit": 1,
+          "x": -3.81,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "A",
+          "func": "passive",
+          "unit": 1,
+          "x": 3.81,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        }
+      ]
+    },
+    "D3": {
+      "symbol": "Power_Protection:USBLC6-2P6",
+      "ref": "D3",
+      "value": "USBLC6-2P6",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "datasheet": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "description": "Very low capacitance ESD protection diode, 2 data-line, SOT-666",
+      "properties": {
+        "ki_fp_filters": "SOT?666*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "SOT?666*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "I/O1",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "GND",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -7.62,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "3",
+          "name": "I/O2",
+          "func": "passive",
+          "unit": 1,
+          "x": -5.08,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "4",
+          "name": "I/O2",
+          "func": "passive",
+          "unit": 1,
+          "x": 5.08,
+          "y": -2.54,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "5",
+          "name": "VBUS",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "6",
+          "name": "I/O1",
+          "func": "passive",
+          "unit": 1,
+          "x": 5.08,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        },
+        {
+          "pin_id": "GND",
+          "name": "GND",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -7.62,
+          "length": 2.54,
+          "orientation": 90.0
+        },
+        {
+          "pin_id": "VBUS",
+          "name": "VBUS",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 5.08,
+          "length": 2.54,
+          "orientation": 270.0
+        }
+      ]
+    },
+    "D4": {
+      "symbol": "Device:D",
+      "ref": "D4",
+      "value": "TVS_LOWCAP_ANT",
+      "footprint": "Diode_SMD:D_0402_1005Metric",
+      "datasheet": "",
+      "description": "Diode",
+      "properties": {
+        "ki_fp_filters": "TO-???* *_Diode_* *SingleDiode* D_*"
+      },
+      "_extra_fields": {
+        "dnp": true,
+        "ki_fp_filters": "TO-???* *_Diode_* *SingleDiode* D_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "K",
+          "func": "passive",
+          "unit": 1,
+          "x": -3.81,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 0.0
+        },
+        {
+          "pin_id": "2",
+          "name": "A",
+          "func": "passive",
+          "unit": 1,
+          "x": 3.81,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 180.0
+        }
+      ],
+      "dnp": true
+    },
+    "C1": {
+      "symbol": "Device:C",
+      "ref": "C1",
+      "value": "1uF",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C2": {
+      "symbol": "Device:C",
+      "ref": "C2",
+      "value": "100uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C3": {
+      "symbol": "Device:C",
+      "ref": "C3",
+      "value": "100uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C16": {
+      "symbol": "Device:C",
+      "ref": "C16",
+      "value": "100uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C4": {
+      "symbol": "Device:C",
+      "ref": "C4",
+      "value": "22uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C5": {
+      "symbol": "Device:C",
+      "ref": "C5",
+      "value": "22uF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "L1": {
+      "symbol": "Device:L",
+      "ref": "L1",
+      "value": "2.2uH",
+      "footprint": "Inductor_SMD:L_1008_2520Metric",
+      "datasheet": "",
+      "description": "Inductor",
+      "properties": {
+        "ki_fp_filters": "Choke_* *Coil* Inductor_* L_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Choke_* *Coil* Inductor_* L_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "1",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "2",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C6": {
+      "symbol": "Device:C",
+      "ref": "C6",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C7": {
+      "symbol": "Device:C",
+      "ref": "C7",
+      "value": "22pF",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C8": {
+      "symbol": "Device:C",
+      "ref": "C8",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C9": {
+      "symbol": "Device:C",
+      "ref": "C9",
+      "value": "1uF",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C10": {
+      "symbol": "Device:C",
+      "ref": "C10",
+      "value": "1uF",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C11": {
+      "symbol": "Device:C",
+      "ref": "C11",
+      "value": "1uF",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "R8": {
+      "symbol": "Device:R",
+      "ref": "R8",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "R9": {
+      "symbol": "Device:R",
+      "ref": "R9",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "C12": {
+      "symbol": "Device:C",
+      "ref": "C12",
+      "value": "DNP_SHUNT",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "dnp": true,
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ],
+      "dnp": true
+    },
+    "C13": {
+      "symbol": "Device:C",
+      "ref": "C13",
+      "value": "DNP_SHUNT",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "dnp": true,
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ],
+      "dnp": true
+    },
+    "C14": {
+      "symbol": "Device:C",
+      "ref": "C14",
+      "value": "DNP_SHUNT",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "dnp": true,
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ],
+      "dnp": true
+    },
+    "C15": {
+      "symbol": "Device:C",
+      "ref": "C15",
+      "value": "DNP_SHUNT",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "datasheet": "",
+      "description": "Unpolarized capacitor",
+      "properties": {
+        "ki_fp_filters": "C_*"
+      },
+      "_extra_fields": {
+        "dnp": true,
+        "ki_fp_filters": "C_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 2.794,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 2.794,
+          "orientation": 90.0
+        }
+      ],
+      "dnp": true
+    },
+    "R1": {
+      "symbol": "Device:R",
+      "ref": "R1",
+      "value": "180k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "R2": {
+      "symbol": "Device:R",
+      "ref": "R2",
+      "value": "5.1k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "R3": {
+      "symbol": "Device:R",
+      "ref": "R3",
+      "value": "5.1k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "R4": {
+      "symbol": "Device:R",
+      "ref": "R4",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "R5": {
+      "symbol": "Device:R",
+      "ref": "R5",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "R6": {
+      "symbol": "Device:R",
+      "ref": "R6",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "R7": {
+      "symbol": "Device:R",
+      "ref": "R7",
+      "value": "0R_JMP_GND",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "dnp": true,
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ],
+      "dnp": true
+    },
+    "R13": {
+      "symbol": "Device:R",
+      "ref": "R13",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "R10": {
+      "symbol": "Device:R",
+      "ref": "R10",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "dnp": true,
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ],
+      "dnp": true
+    },
+    "R11": {
+      "symbol": "Device:R",
+      "ref": "R11",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "dnp": true,
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ],
+      "dnp": true
+    },
+    "RT1": {
+      "symbol": "Device:R",
+      "ref": "RT1",
+      "value": "NTC_10k_B3380",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "dnp": true,
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ],
+      "dnp": true
+    },
+    "R12": {
+      "symbol": "Device:R",
+      "ref": "R12",
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "datasheet": "",
+      "description": "Resistor",
+      "properties": {
+        "ki_fp_filters": "R_*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "R_*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 3.81,
+          "length": 1.27,
+          "orientation": 270.0
+        },
+        {
+          "pin_id": "2",
+          "name": "",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": -3.81,
+          "length": 1.27,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "TP1": {
+      "symbol": "Connector:TestPoint",
+      "ref": "TP1",
+      "value": "TP_PWRKEY",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "",
+      "description": "test point",
+      "properties": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "1",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "TP2": {
+      "symbol": "Connector:TestPoint",
+      "ref": "TP2",
+      "value": "TP_UART1_TXD",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "",
+      "description": "test point",
+      "properties": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "1",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "TP3": {
+      "symbol": "Connector:TestPoint",
+      "ref": "TP3",
+      "value": "TP_UART1_RXD",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "",
+      "description": "test point",
+      "properties": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "1",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "TP4": {
+      "symbol": "Connector:TestPoint",
+      "ref": "TP4",
+      "value": "TP_DEBUG_TXD",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "",
+      "description": "test point",
+      "properties": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "1",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "TP5": {
+      "symbol": "Connector:TestPoint",
+      "ref": "TP5",
+      "value": "TP_DEBUG_RXD",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "",
+      "description": "test point",
+      "properties": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "1",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "TP6": {
+      "symbol": "Connector:TestPoint",
+      "ref": "TP6",
+      "value": "TP_STATUS",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "",
+      "description": "test point",
+      "properties": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "1",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "TP7": {
+      "symbol": "Connector:TestPoint",
+      "ref": "TP7",
+      "value": "TP_CHG_STAT",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "",
+      "description": "test point",
+      "properties": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "1",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 90.0
+        }
+      ]
+    },
+    "TP8": {
+      "symbol": "Connector:TestPoint",
+      "ref": "TP8",
+      "value": "TP_VDD_EXT",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "",
+      "description": "test point",
+      "properties": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "_extra_fields": {
+        "ki_fp_filters": "Pin* Test*"
+      },
+      "pins": [
+        {
+          "pin_id": "1",
+          "name": "1",
+          "func": "passive",
+          "unit": 1,
+          "x": 0.0,
+          "y": 0.0,
+          "length": 2.54,
+          "orientation": 90.0
+        }
+      ]
+    }
+  },
+  "nets": {
+    "PWRKEY": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "1",
+            "name": "PWRKEY",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "1",
+            "name": "PWRKEY",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "TP1",
+          "pin": {
+            "number": "1",
+            "name": "1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "GND": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "2",
+            "name": "GND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "2",
+            "name": "GND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "2",
+            "name": "AGND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "6",
+            "name": "PGND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "8",
+            "name": "OTG",
+            "type": "input"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "2",
+            "name": "AGND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "6",
+            "name": "PGND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "8",
+            "name": "OTG",
+            "type": "input"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "6",
+            "name": "GND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "7",
+            "name": "GND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U4",
+          "pin": {
+            "number": "2",
+            "name": "GND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U4",
+          "pin": {
+            "number": "2",
+            "name": "GND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U6",
+          "pin": {
+            "number": "4",
+            "name": "VSS",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U6",
+          "pin": {
+            "number": "4",
+            "name": "VSS",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "A1",
+            "name": "GND",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "A12",
+            "name": "GND",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "B1",
+            "name": "GND",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "B12",
+            "name": "GND",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "SH",
+            "name": "SHIELD",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "SH",
+            "name": "SHIELD",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "5",
+            "name": "GND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "6",
+            "name": "VPP",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "SH",
+            "name": "SHIELD",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "5",
+            "name": "GND",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "SH",
+            "name": "SHIELD",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "6",
+            "name": "VPP",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J3",
+          "pin": {
+            "number": "2",
+            "name": "Ext",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J3",
+          "pin": {
+            "number": "2",
+            "name": "Ext",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J4",
+          "pin": {
+            "number": "2",
+            "name": "Ext",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J4",
+          "pin": {
+            "number": "2",
+            "name": "Ext",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J5",
+          "pin": {
+            "number": "2",
+            "name": "Pin_2",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "2",
+            "name": "GND",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "2",
+            "name": "GND",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D2",
+          "pin": {
+            "number": "2",
+            "name": "A",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D3",
+          "pin": {
+            "number": "2",
+            "name": "GND",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D3",
+          "pin": {
+            "number": "2",
+            "name": "GND",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D4",
+          "pin": {
+            "number": "2",
+            "name": "A",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C1",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C2",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C3",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C16",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C4",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C5",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C6",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C7",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C8",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C9",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C11",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C12",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C13",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C14",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C15",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R1",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R2",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R3",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R7",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "RT1",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "UART1_DTR": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "3",
+            "name": "UART1_DTR",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "3",
+            "name": "UART1_DTR",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "R13",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "BOOT_CFG": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "6",
+            "name": "BOOT_CFG",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "6",
+            "name": "BOOT_CFG",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "R7",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "UART1_TXD": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "9",
+            "name": "UART1_TXD",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "9",
+            "name": "UART1_TXD",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "TP2",
+          "pin": {
+            "number": "1",
+            "name": "1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "UART1_RXD": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "10",
+            "name": "UART1_RXD",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "10",
+            "name": "UART1_RXD",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "TP3",
+          "pin": {
+            "number": "1",
+            "name": "1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "VDD_1V8": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "15",
+            "name": "VDD_EXT",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "15",
+            "name": "VDD_EXT",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "5",
+            "name": "VDDIO",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "5",
+            "name": "VDDIO",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "R4",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R5",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R6",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R13",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "TP8",
+          "pin": {
+            "number": "1",
+            "name": "1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "INT1_M": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "20",
+            "name": "GPIO2",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "20",
+            "name": "GPIO2",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "R10",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "INT2_M": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "21",
+            "name": "GPIO3",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "21",
+            "name": "GPIO3",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "R11",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "DEBUG_RXD": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "22",
+            "name": "DEBUG_RXD",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "22",
+            "name": "DEBUG_RXD",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "TP5",
+          "pin": {
+            "number": "1",
+            "name": "1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "DEBUG_TXD": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "23",
+            "name": "DEBUG_TXD",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "23",
+            "name": "DEBUG_TXD",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "TP4",
+          "pin": {
+            "number": "1",
+            "name": "1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "USB_5V": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "24",
+            "name": "USB_VBUS",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "24",
+            "name": "USB_VBUS",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "5",
+            "name": "USB",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "5",
+            "name": "USB",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "A4",
+            "name": "VBUS",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "A9",
+            "name": "VBUS",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "B4",
+            "name": "VBUS",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "B9",
+            "name": "VBUS",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D3",
+          "pin": {
+            "number": "5",
+            "name": "VBUS",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D3",
+          "pin": {
+            "number": "5",
+            "name": "VBUS",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C4",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C5",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "USB_DP": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "27",
+            "name": "USB_DP",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "27",
+            "name": "USB_DP",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "A6",
+            "name": "D+",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "B6",
+            "name": "D+",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "D3",
+          "pin": {
+            "number": "1",
+            "name": "I/O1",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D3",
+          "pin": {
+            "number": "6",
+            "name": "I/O1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "USB_DM": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "28",
+            "name": "USB_DM",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "28",
+            "name": "USB_DM",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "A7",
+            "name": "D-",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "B7",
+            "name": "D-",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "D3",
+          "pin": {
+            "number": "3",
+            "name": "I/O2",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D3",
+          "pin": {
+            "number": "4",
+            "name": "I/O2",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "VSIM": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "30",
+            "name": "SIM_VDD",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "30",
+            "name": "SIM_VDD",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "1",
+            "name": "VCC",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "1",
+            "name": "VCC",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "5",
+            "name": "IO4",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "5",
+            "name": "IO4",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C6",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C7",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "SIM_DATA": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "31",
+            "name": "SIM_DATA",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "31",
+            "name": "SIM_DATA",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "7",
+            "name": "I/O",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "7",
+            "name": "I/O",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "3",
+            "name": "IO2",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "3",
+            "name": "IO2",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "SIM_CLK": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "32",
+            "name": "SIM_CLK",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "32",
+            "name": "SIM_CLK",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "3",
+            "name": "CLK",
+            "type": "output"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "3",
+            "name": "CLK",
+            "type": "output"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "1",
+            "name": "IO1",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "1",
+            "name": "IO1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "SIM_RST": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "33",
+            "name": "SIM_RST",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "33",
+            "name": "SIM_RST",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "2",
+            "name": "RST",
+            "type": "output"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "2",
+            "name": "RST",
+            "type": "output"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "4",
+            "name": "IO3",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "4",
+            "name": "IO3",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "SDA": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "37",
+            "name": "I2C_SDA",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "37",
+            "name": "I2C_SDA",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "14",
+            "name": "SDA",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "14",
+            "name": "SDA",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U6",
+          "pin": {
+            "number": "5",
+            "name": "SDA",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U6",
+          "pin": {
+            "number": "5",
+            "name": "SDA",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "R4",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "SCL": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "38",
+            "name": "I2C_SCL",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "38",
+            "name": "I2C_SCL",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "13",
+            "name": "SCL",
+            "type": "input"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "13",
+            "name": "SCL",
+            "type": "input"
+          }
+        },
+        {
+          "component": "U6",
+          "pin": {
+            "number": "6",
+            "name": "SCL",
+            "type": "input"
+          }
+        },
+        {
+          "component": "U6",
+          "pin": {
+            "number": "6",
+            "name": "SCL",
+            "type": "input"
+          }
+        },
+        {
+          "component": "R5",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "ANT_GNSS": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "53",
+            "name": "GNSS_ANT",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "53",
+            "name": "GNSS_ANT",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "R9",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C14",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "VBAT": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "55",
+            "name": "VBAT",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "55",
+            "name": "VBAT",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "1",
+            "name": "BATS",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "1",
+            "name": "BATS",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "U4",
+          "pin": {
+            "number": "1",
+            "name": "IN",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U4",
+          "pin": {
+            "number": "3",
+            "name": "EN",
+            "type": "input"
+          }
+        },
+        {
+          "component": "U4",
+          "pin": {
+            "number": "1",
+            "name": "IN",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U4",
+          "pin": {
+            "number": "3",
+            "name": "EN",
+            "type": "input"
+          }
+        },
+        {
+          "component": "U6",
+          "pin": {
+            "number": "3",
+            "name": "VBAT",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U6",
+          "pin": {
+            "number": "8",
+            "name": "VDD",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U6",
+          "pin": {
+            "number": "3",
+            "name": "VBAT",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U6",
+          "pin": {
+            "number": "8",
+            "name": "VDD",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "D2",
+          "pin": {
+            "number": "1",
+            "name": "K",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C1",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C2",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C3",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C16",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "L1",
+          "pin": {
+            "number": "2",
+            "name": "2",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C10",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "RT1",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R12",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "ANT_LTE": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "60",
+            "name": "RF_ANT",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "60",
+            "name": "RF_ANT",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "D4",
+          "pin": {
+            "number": "1",
+            "name": "K",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R8",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C12",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "STATUS": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "66",
+            "name": "STATUS",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "66",
+            "name": "STATUS",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "TP6",
+          "pin": {
+            "number": "1",
+            "name": "1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "SIM_DET": {
+      "nodes": [
+        {
+          "component": "U1",
+          "pin": {
+            "number": "67",
+            "name": "GPIO6",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "U1",
+          "pin": {
+            "number": "67",
+            "name": "GPIO6",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "SW",
+            "name": "DET",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J2",
+          "pin": {
+            "number": "SW",
+            "name": "DET",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "6",
+            "name": "IO5",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "D1",
+          "pin": {
+            "number": "6",
+            "name": "IO5",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R6",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "ISET": {
+      "nodes": [
+        {
+          "component": "U2",
+          "pin": {
+            "number": "3",
+            "name": "ISET",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "3",
+            "name": "ISET",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R1",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "CHG_STAT": {
+      "nodes": [
+        {
+          "component": "U2",
+          "pin": {
+            "number": "4",
+            "name": "STAT",
+            "type": "output"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "4",
+            "name": "STAT",
+            "type": "output"
+          }
+        },
+        {
+          "component": "TP7",
+          "pin": {
+            "number": "1",
+            "name": "1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "SW_CHG": {
+      "nodes": [
+        {
+          "component": "U2",
+          "pin": {
+            "number": "7",
+            "name": "SW",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "U2",
+          "pin": {
+            "number": "7",
+            "name": "SW",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "L1",
+          "pin": {
+            "number": "1",
+            "name": "1",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "INT1": {
+      "nodes": [
+        {
+          "component": "U3",
+          "pin": {
+            "number": "4",
+            "name": "INT1",
+            "type": "output"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "4",
+            "name": "INT1",
+            "type": "output"
+          }
+        },
+        {
+          "component": "R10",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "IMU_VDD": {
+      "nodes": [
+        {
+          "component": "U3",
+          "pin": {
+            "number": "8",
+            "name": "VDD",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "8",
+            "name": "VDD",
+            "type": "power_in"
+          }
+        },
+        {
+          "component": "U4",
+          "pin": {
+            "number": "5",
+            "name": "OUT",
+            "type": "power_out"
+          }
+        },
+        {
+          "component": "U4",
+          "pin": {
+            "number": "5",
+            "name": "OUT",
+            "type": "power_out"
+          }
+        },
+        {
+          "component": "C8",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C9",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C11",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "INT2": {
+      "nodes": [
+        {
+          "component": "U3",
+          "pin": {
+            "number": "9",
+            "name": "INT2",
+            "type": "output"
+          }
+        },
+        {
+          "component": "U3",
+          "pin": {
+            "number": "9",
+            "name": "INT2",
+            "type": "output"
+          }
+        },
+        {
+          "component": "R11",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "CC1": {
+      "nodes": [
+        {
+          "component": "J1",
+          "pin": {
+            "number": "A5",
+            "name": "CC1",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "A5",
+            "name": "CC1",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "R2",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "CC2": {
+      "nodes": [
+        {
+          "component": "J1",
+          "pin": {
+            "number": "B5",
+            "name": "CC2",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "J1",
+          "pin": {
+            "number": "B5",
+            "name": "CC2",
+            "type": "bidirectional"
+          }
+        },
+        {
+          "component": "R3",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "ANT_LTE_MID": {
+      "nodes": [
+        {
+          "component": "J3",
+          "pin": {
+            "number": "1",
+            "name": "In",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J3",
+          "pin": {
+            "number": "1",
+            "name": "In",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R8",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C13",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "ANT_GNSS_MID": {
+      "nodes": [
+        {
+          "component": "J4",
+          "pin": {
+            "number": "1",
+            "name": "In",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "J4",
+          "pin": {
+            "number": "1",
+            "name": "In",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R9",
+          "pin": {
+            "number": "2",
+            "name": "",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "C15",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    },
+    "BAT_PACK": {
+      "nodes": [
+        {
+          "component": "J5",
+          "pin": {
+            "number": "1",
+            "name": "Pin_1",
+            "type": "passive"
+          }
+        },
+        {
+          "component": "R12",
+          "pin": {
+            "number": "1",
+            "name": "",
+            "type": "passive"
+          }
+        }
+      ],
+      "is_power": false,
+      "power_symbol": null,
+      "trace_current": null,
+      "impedance": null,
+      "properties": {}
+    }
+  },
+  "subcircuits": [],
+  "annotations": []
+}

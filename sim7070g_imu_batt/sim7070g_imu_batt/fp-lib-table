@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "sim7070g_imu_batt")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr "Project footprints: SIM7070G_LCC_LGA68, LSM6DSV16X_LGA14, NanoSIM_GCT_SIM8060-6-1, USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A, U.FL_Hirose_U.FL-R-SMT-1_Vertical, BAT_SolderPads"))
+)

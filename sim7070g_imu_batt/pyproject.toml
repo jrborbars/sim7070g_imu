@@ -1,0 +1,14 @@
+# pyproject.toml — circuit-synth project (no pins, pip resolves, Python 3.14.x)
+
+[project]
+name = "sim7070g_imu_batt"
+version = "0.1"
+description = "SIM7070G + LSM6DSV16X + 1S LiPo (ETA6095 charger) — circuit-synth board definition"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+  "circuit-synth",
+]
+
+[tool.circuit-synth]
+board = "sim7070g_imu_batt.board:board"
+
